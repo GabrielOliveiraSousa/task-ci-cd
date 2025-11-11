@@ -22,9 +22,6 @@ jobs:
         with:
           node-version: '22.x'
         
-      - name: Instalando dependências
-        run: npm ci
-        
       - name: Run do Test
         run: npm run test
       
